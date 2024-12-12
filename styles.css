@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #1C5564;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hero {
+    background-color: #15E284;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #15E284;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1C5564;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+div h2{
+    text-align: center;
+}
+#secao_meio{
+    background-image: url(./imagens/Financa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(100%);
+}
+.hero-content p {
+    color: #000000;
+}
+.hero-content h2 {
+    color: #000000;
+}
+.hero-content{
+    text-align: center;
+}
+#botao_comece{
+    background-color: #1C5564;
+    width: fit-content;
+    border: 1px solid #1C5564;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+#botao_agora{
+    color: #fff;
+    text-decoration:none;
+
+}
